@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+.bodyfram
+{
+	width:980px;
+	height:700px;
+    margin:0 auto 0 auto;
+	padding:120px 20px 30px 30px;
+	background-color:#FFEADF;
+}
+.bodyfram #main
+{
+	position: absolute;
+	width: 765px;
+	height: 765px;
+	background-color: #F99;
+	left:40%;
+	margin-left: -230px;
+	top: 392px;
+	margin-top: -230px;
+	transition-property::all;
+	-moz-transition-property:-moz-transform:;
+	-webkit-transition-property:-webkit-transform:
+	-o-transition-property:-o-transform;
+	transition-duration: 2s;
+	-moz-transition-duration: 2s;
+	-webkit-transition-duration: 2s;
+	-o-transition-duration: 2s;
+}
+#main:hover
+{
+	cursor:pointer;
+	background-color:#F96;
+	transform:rotate(360deg);
+	-moz-transform:rotate(360deg);
+	-webkit-transform:rotate(360deg);
+	-o-transform:rotate(360deg);
+}
+h1
+{
+	font-size:12px;
+	color:#F00;
+}
+h2
+{
+	font-size:14px;
+}
+h3
+{
+	font-size:12px;
+	color:#90C;
+}

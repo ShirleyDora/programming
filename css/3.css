@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+.bodyfram
+{
+	width:980px;
+	height:500px;
+    margin:0 auto 0 auto;
+	padding:20px 20px 30px 30px;
+	background-color:#FFEADF;
+}
+.leftfram
+{
+	width:200px;
+	height:500px;
+	float:left;
+}
+.rightfram
+{
+	width:780px;
+	height:500px;
+	float:right;
+}
+.leftfram .top
+{
+	width:200px;
+	height:100px;
+}
+.leftfram .top img
+{
+	width:200px;
+	height:100px;
+}
+.leftfram .bottom
+{
+	width:200px;
+	height:400px;
+}
+h1{
+	font-size:16px;
+	color:#03F;
+}
+#text
+{
+	width:740px;
+	height:440px;
+	padding:20px 10px 20px 10px;
+	float:right;
+	overflow:scroll;
+}
+
